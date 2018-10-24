@@ -1,0 +1,86 @@
+<!doctype HTML>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Liste imbriquée</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+        <style>
+            *{font-family:"Nunito",Arial;}
+            .bold{font-weight:bold;}
+            table, td, th {border:1px solid #000;}
+        </style>
+
+    </head>
+    <body>
+<h1>Exo HTML - Grégoire BRILLE</h1>
+       <h2>Listes imbriquées</h2>
+       
+        <ol>
+            <li>élement de niveau 1.1</li>
+            <li>élement de niveau 1.2
+                <ul>
+                    <li>premier sous élément du deuxième élément numéroté
+                        <ol>
+                            <li>ajoutons-y une sous liste</li>
+                            <li>Elle est numéroté</li>
+                            <li>c'est oujours ok ?</li>
+                        </ol>
+                    </li>
+                    <li>2ème sous élément du deuxième élément numéroté</li>
+                    <li>3ème sous élément du deuxième élément numéroté</li>
+                </ul>
+            </li>
+            <li>élement de niveau 1.1</li>
+        </ol>
+
+        <br/>
+        
+        <h2>Tableau un peu plus complexe</h2>
+
+        <table>
+            <tr>
+                <th colspan="2"></th>
+                <th colspan="2">Premier groupe</th>
+                <th colspan="2">Deuxième groupe</th>
+            </tr>
+            <tr class="bold">
+
+                <td></td>
+                <td>Personne</td>
+                <td>Singulier</td>
+                <td>Pluriel</td>
+                <td>Singulier</td>
+                <td>Pluriel</td>
+
+            </tr>
+            <tr>
+                <th rowspan="3">
+                    présent
+                </th>
+                <td>1</td>
+                <td>Je code</td>
+                <td>Nous codons</td>
+                <td>Je réussis</td>
+                <td>Nous réussissons</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tu codes</td>
+                <td>Vous codez</td>
+                <td>Tu réussis</td>
+                <td>Vous réussissez</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Il/Elle code</td>
+                <td>Ils/Elles codent</td>
+                <td>Il/Elle réussit</td>
+                <td>Ils/Elles réussissent</td>
+
+            </tr>
+        </table>
+
+    </body>
+</html>
